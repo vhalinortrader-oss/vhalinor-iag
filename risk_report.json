@@ -1,0 +1,163 @@
+{
+  "timestamp": "2026-04-19T14:57:57.683163",
+  "portfolio_risk": {
+    "total_value": 1000000,
+    "cash_balance": 100000,
+    "total_exposure": 800000.0,
+    "net_exposure": -200000.0,
+    "leverage": 0.8,
+    "portfolio_var": 0.0894294130326691,
+    "portfolio_cvar": 0.1073152956392029,
+    "max_drawdown": 0.15,
+    "sharpe_ratio": 1.2,
+    "sortino_ratio": 1.5,
+    "beta_portfolio": 1.1,
+    "tracking_error": 0.08,
+    "concentration_risk": 0.4609375,
+    "liquidity_risk": 1.355925925925926e-09,
+    "sector_exposure": {
+      "Technology": 0.4,
+      "Finance": 0.3,
+      "Healthcare": 0.2,
+      "Energy": 0.1
+    },
+    "geographic_exposure": {
+      "US": 0.6,
+      "Europe": 0.3,
+      "Asia": 0.1
+    },
+    "currency_exposure": {
+      "USD": 0.7,
+      "EUR": 0.2,
+      "JPY": 0.1
+    },
+    "risk_level": "Extremo",
+    "risk_budget_utilization": 4.471470651633455,
+    "stress_test_results": {
+      "market_crash": -300000.0,
+      "liquidity_crisis": 0
+    }
+  },
+  "position_risks": [
+    {
+      "symbol": "AAPL",
+      "position_type": "long",
+      "position_size": 1000,
+      "current_price": 150.0,
+      "market_value": 150000.0,
+      "unrealized_pnl": 5000.0,
+      "daily_var": 0.028012945754847758,
+      "weekly_var": 0.07411528795766971,
+      "monthly_var": 0.15343322292098702,
+      "beta": 1.2,
+      "volatility": 0.301733054422647,
+      "concentration_risk": 1.0,
+      "liquidity_risk": 4.000000000000001e-11,
+      "total_risk_score": 0.385949200043499,
+      "risk_level": "Alto",
+      "stop_loss_price": 147.0,
+      "take_profit_price": 157.5
+    },
+    {
+      "symbol": "MSFT",
+      "position_type": "long",
+      "position_size": 500,
+      "current_price": 300.0,
+      "market_value": 150000.0,
+      "unrealized_pnl": 5000.0,
+      "daily_var": 0.032710102804956336,
+      "weekly_var": 0.08654279738127077,
+      "monthly_var": 0.17916061164587593,
+      "beta": 0.9,
+      "volatility": 0.32432192428898377,
+      "concentration_risk": 1.0,
+      "liquidity_risk": 2.7777777777777783e-11,
+      "total_risk_score": 0.3814064054243436,
+      "risk_level": "Alto",
+      "stop_loss_price": 294.0,
+      "take_profit_price": 315.0
+    },
+    {
+      "symbol": "GOOGL",
+      "position_type": "short",
+      "position_size": 200,
+      "current_price": 2500.0,
+      "market_value": 500000.0,
+      "unrealized_pnl": 10000.0,
+      "daily_var": 0.028706364472865002,
+      "weekly_var": 0.07594990143998057,
+      "monthly_var": 0.15723123365753058,
+      "beta": 1.1,
+      "volatility": 0.30630846562905856,
+      "concentration_risk": 1.0,
+      "liquidity_risk": 4e-09,
+      "total_risk_score": 0.3770029668203847,
+      "risk_level": "Alto",
+      "stop_loss_price": 2550.0,
+      "take_profit_price": 2375.0
+    }
+  ],
+  "risk_limits": [
+    {
+      "name": "Alavancagem M\u00e1xima",
+      "risk_type": "market_risk",
+      "measure": "concentration",
+      "limit_value": 2.0,
+      "current_value": 0.8,
+      "utilization_rate": 0.4,
+      "warning_threshold": 0.8,
+      "critical_threshold": 0.95,
+      "is_breached": false,
+      "breach_time": null
+    },
+    {
+      "name": "VaR Di\u00e1rio M\u00e1ximo",
+      "risk_type": "market_risk",
+      "measure": "value_at_risk",
+      "limit_value": 0.02,
+      "current_value": 0.0894294130326691,
+      "utilization_rate": 4.471470651633455,
+      "warning_threshold": 0.8,
+      "critical_threshold": 0.95,
+      "is_breached": true,
+      "breach_time": "2026-04-19T14:57:57.682653"
+    },
+    {
+      "name": "Concentra\u00e7\u00e3o M\u00e1xima",
+      "risk_type": "concentration_risk",
+      "measure": "concentration",
+      "limit_value": 0.3,
+      "current_value": 0.4609375,
+      "utilization_rate": 1.5364583333333335,
+      "warning_threshold": 0.8,
+      "critical_threshold": 0.95,
+      "is_breached": true,
+      "breach_time": "2026-04-19T14:57:57.682659"
+    }
+  ],
+  "risk_alerts": [
+    {
+      "timestamp": "2026-04-19 14:57:57.682653",
+      "limit": "VaR Di\u00e1rio M\u00e1ximo",
+      "utilization": 4.471470651633455,
+      "severity": "CRITICAL"
+    },
+    {
+      "timestamp": "2026-04-19 14:57:57.682659",
+      "limit": "Concentra\u00e7\u00e3o M\u00e1xima",
+      "utilization": 1.5364583333333335,
+      "severity": "CRITICAL"
+    }
+  ],
+  "summary": {
+    "total_positions": 3,
+    "breached_limits": 2,
+    "warning_limits": 2,
+    "overall_risk_level": "Extremo",
+    "recommendations": [
+      "Diversificar portf\u00f3lio para reduzir concentra\u00e7\u00e3o",
+      "Reduzir tamanho das posi\u00e7\u00f5es para controlar VaR",
+      "Revisar posi\u00e7\u00f5es de alto risco: AAPL, MSFT, GOOGL"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+2026-04-13 18:48:11,873 - VHALINOR_Analytics - INFO - [START] VHALINOR Risk Analytics v4.5.0 inicializado com sucesso
+2026-04-13 18:48:11,875 - VHALINOR_Analytics - INFO - [STRESS_TEST] Iniciando stress test - 6 ativos
+2026-04-13 18:48:24,846 - VHALINOR_Analytics - INFO - run_stress_test executado em 12.970s
+2026-04-13 18:49:54,133 - VHALINOR_Analytics - INFO - [START] VHALINOR Risk Analytics v4.5.0 inicializado com sucesso
+2026-04-13 18:49:54,135 - VHALINOR_Analytics - INFO - [STRESS_TEST] Iniciando stress test - 6 ativos
+2026-04-13 18:49:54,201 - VHALINOR_Analytics - WARNING - Problema na matriz de covariância: Array must not contain infs or NaNs
+2026-04-13 18:49:54,202 - VHALINOR_Analytics - ERROR - [ERROR] Erro no cenário Market Crash: 'numpy.ndarray' object has no attribute 'values'
+2026-04-13 18:49:54,212 - VHALINOR_Analytics - WARNING - Problema na matriz de covariância: Array must not contain infs or NaNs
+2026-04-13 18:49:54,213 - VHALINOR_Analytics - ERROR - [ERROR] Erro no cenário Flash Crash: 'numpy.ndarray' object has no attribute 'values'
+2026-04-13 18:49:54,222 - VHALINOR_Analytics - WARNING - Problema na matriz de covariância: Array must not contain infs or NaNs
+2026-04-13 18:49:54,222 - VHALINOR_Analytics - ERROR - [ERROR] Erro no cenário Alta Volatilidade: 'numpy.ndarray' object has no attribute 'values'
+2026-04-13 18:49:54,238 - VHALINOR_Analytics - WARNING - Problema na matriz de covariância: Array must not contain infs or NaNs
+2026-04-13 18:49:54,238 - VHALINOR_Analytics - ERROR - [ERROR] Erro no cenário Crise Cambial: 'numpy.ndarray' object has no attribute 'values'
+2026-04-13 18:49:54,249 - VHALINOR_Analytics - WARNING - Problema na matriz de covariância: Array must not contain infs or NaNs
+2026-04-13 18:49:54,249 - VHALINOR_Analytics - ERROR - [ERROR] Erro no cenário Cisne Negro: 'numpy.ndarray' object has no attribute 'values'
+2026-04-13 18:49:54,259 - VHALINOR_Analytics - WARNING - Problema na matriz de covariância: Array must not contain infs or NaNs
+2026-04-13 18:49:54,259 - VHALINOR_Analytics - ERROR - [ERROR] Erro no cenário Choque de Juros: 'numpy.ndarray' object has no attribute 'values'
+2026-04-13 18:49:54,269 - VHALINOR_Analytics - WARNING - Problema na matriz de covariância: Array must not contain infs or NaNs
+2026-04-13 18:49:54,269 - VHALINOR_Analytics - ERROR - [ERROR] Erro no cenário Crise de Liquidez: 'numpy.ndarray' object has no attribute 'values'
+2026-04-13 18:49:54,269 - VHALINOR_Analytics - INFO - run_stress_test executado em 0.134s
+2026-04-13 18:49:54,333 - VHALINOR_Analytics - WARNING - Problema na matriz de covariância: Array must not contain infs or NaNs
+2026-04-13 18:50:33,878 - VHALINOR_Analytics - INFO - [START] VHALINOR Risk Analytics v4.5.0 inicializado com sucesso
+2026-04-13 18:50:33,886 - VHALINOR_Analytics - INFO - [STRESS_TEST] Iniciando stress test - 6 ativos
+2026-04-13 18:50:33,967 - VHALINOR_Analytics - WARNING - Problema na matriz de covariância: Array must not contain infs or NaNs
+2026-04-13 18:50:33,968 - VHALINOR_Analytics - ERROR - [ERROR] Erro no cenário Market Crash: 'numpy.ndarray' object has no attribute 'values'
+2026-04-13 18:50:33,983 - VHALINOR_Analytics - WARNING - Problema na matriz de covariância: Array must not contain infs or NaNs
+2026-04-13 18:50:33,984 - VHALINOR_Analytics - ERROR - [ERROR] Erro no cenário Flash Crash: 'numpy.ndarray' object has no attribute 'values'
+2026-04-13 18:50:34,001 - VHALINOR_Analytics - WARNING - Problema na matriz de covariância: Array must not contain infs or NaNs
+2026-04-13 18:50:34,002 - VHALINOR_Analytics - ERROR - [ERROR] Erro no cenário Alta Volatilidade: 'numpy.ndarray' object has no attribute 'values'
+2026-04-13 18:50:34,013 - VHALINOR_Analytics - WARNING - Problema na matriz de covariância: Array must not contain infs or NaNs
+2026-04-13 18:50:34,013 - VHALINOR_Analytics - ERROR - [ERROR] Erro no cenário Crise Cambial: 'numpy.ndarray' object has no attribute 'values'
+2026-04-13 18:50:34,024 - VHALINOR_Analytics - WARNING - Problema na matriz de covariância: Array must not contain infs or NaNs
+2026-04-13 18:50:34,025 - VHALINOR_Analytics - ERROR - [ERROR] Erro no cenário Cisne Negro: 'numpy.ndarray' object has no attribute 'values'
+2026-04-13 18:50:34,034 - VHALINOR_Analytics - WARNING - Problema na matriz de covariância: Array must not contain infs or NaNs
+2026-04-13 18:50:34,035 - VHALINOR_Analytics - ERROR - [ERROR] Erro no cenário Choque de Juros: 'numpy.ndarray' object has no attribute 'values'
+2026-04-13 18:50:34,046 - VHALINOR_Analytics - WARNING - Problema na matriz de covariância: Array must not contain infs or NaNs
+2026-04-13 18:50:34,046 - VHALINOR_Analytics - ERROR - [ERROR] Erro no cenário Crise de Liquidez: 'numpy.ndarray' object has no attribute 'values'
+2026-04-13 18:50:34,048 - VHALINOR_Analytics - INFO - run_stress_test executado em 0.161s
+2026-04-13 18:50:34,077 - VHALINOR_Analytics - WARNING - Problema na matriz de covariância: Array must not contain infs or NaNs
