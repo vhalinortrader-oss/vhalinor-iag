@@ -1,0 +1,50 @@
+2026-03-29 10:13:20,011 - __main__ - INFO - Orquestrador inicializado em modo SCHEDULED
+2026-03-29 10:13:20,011 - __main__ - INFO - Inicializando componentes...
+2026-03-29 10:13:20,011 - __main__ - ERROR - Erro ao inicializar componentes: No module named 'crypto_analysis_advanced'
+2026-03-29 10:13:20,011 - __main__ - INFO - Agendando tarefas recorrentes...
+2026-03-29 10:13:20,011 - __main__ - INFO - Tarefa adicionada: Análise de Criptomoedas (ID: task_1774790000_0)
+2026-03-29 10:13:20,011 - __main__ - INFO - Tarefa adicionada: Análise de Forex (ID: task_1774790000_1)
+2026-03-29 10:13:20,011 - __main__ - INFO - Tarefa adicionada: Scan de Arbitragem (ID: task_1774790000_2)
+2026-03-29 10:13:20,011 - __main__ - INFO - Tarefa adicionada: Análise Unificada (ID: task_1774790000_3)
+2026-03-29 10:13:20,011 - __main__ - INFO - Tarefa adicionada: Atualização de Métricas (ID: task_1774790000_4)
+2026-03-29 10:13:20,011 - __main__ - INFO - Tarefa adicionada: Verificação de Saúde (ID: task_1774790000_5)
+2026-03-29 10:13:20,011 - __main__ - INFO - Tarefas recorrentes agendadas
+2026-03-29 10:13:20,011 - __main__ - INFO - Executando tarefa: Scan de Arbitragem
+2026-03-29 10:13:20,011 - __main__ - INFO - Tarefa concluída: Scan de Arbitragem (0.00s)
+2026-03-29 10:13:20,011 - __main__ - INFO - Executando tarefa: Análise de Criptomoedas
+2026-03-29 10:13:20,011 - __main__ - INFO - Tarefa concluída: Análise de Criptomoedas (0.00s)
+2026-03-29 10:13:20,026 - __main__ - INFO - Executando tarefa: Análise de Forex
+2026-03-29 10:13:20,026 - __main__ - INFO - Tarefa concluída: Análise de Forex (0.00s)
+2026-03-29 10:13:20,026 - __main__ - INFO - Executando tarefa: Análise Unificada
+2026-03-29 10:13:20,026 - __main__ - INFO - Tarefa concluída: Análise Unificada (0.00s)
+2026-03-29 10:13:20,026 - __main__ - INFO - Executando tarefa: Verificação de Saúde
+2026-03-29 10:13:20,027 - __main__ - WARNING - psutil nao instalado. Metricas de sistema nao disponíveis.
+2026-03-29 10:13:20,027 - __main__ - INFO - Tarefa concluída: Verificação de Saúde (0.00s)
+2026-03-29 10:13:20,027 - __main__ - INFO - Executando tarefa: Atualização de Métricas
+2026-03-29 10:13:20,028 - __main__ - INFO - Tarefa concluída: Atualização de Métricas (0.00s)
+2026-03-29 10:13:20,028 - __main__ - INFO - Estado salvo em orchestrator_state.json
+2026-03-29 10:34:58,073 - __main__ - INFO - Orquestrador inicializado em modo SCHEDULED
+2026-03-29 10:34:58,073 - __main__ - INFO - Inicializando componentes...
+2026-03-29 10:34:58,073 - __main__ - ERROR - Erro ao inicializar componentes: No module named 'crypto_analysis_advanced'
+2026-03-29 10:34:58,073 - __main__ - INFO - Agendando tarefas recorrentes...
+2026-03-29 10:34:58,073 - __main__ - INFO - Tarefa adicionada: Análise de Criptomoedas (ID: task_1774791298_0)
+2026-03-29 10:34:58,073 - __main__ - INFO - Tarefa adicionada: Análise de Forex (ID: task_1774791298_1)
+2026-03-29 10:34:58,073 - __main__ - INFO - Tarefa adicionada: Scan de Arbitragem (ID: task_1774791298_2)
+2026-03-29 10:34:58,073 - __main__ - INFO - Tarefa adicionada: Análise Unificada (ID: task_1774791298_3)
+2026-03-29 10:34:58,073 - __main__ - INFO - Tarefa adicionada: Atualização de Métricas (ID: task_1774791298_4)
+2026-03-29 10:34:58,073 - __main__ - INFO - Tarefa adicionada: Verificação de Saúde (ID: task_1774791298_5)
+2026-03-29 10:34:58,073 - __main__ - INFO - Tarefas recorrentes agendadas
+2026-03-29 10:34:58,080 - __main__ - INFO - Executando tarefa: Scan de Arbitragem
+2026-03-29 10:34:58,080 - __main__ - INFO - Tarefa concluída: Scan de Arbitragem (0.00s)
+2026-03-29 10:34:58,080 - __main__ - INFO - Executando tarefa: Análise de Criptomoedas
+2026-03-29 10:34:58,080 - __main__ - INFO - Tarefa concluída: Análise de Criptomoedas (0.00s)
+2026-03-29 10:34:58,080 - __main__ - INFO - Executando tarefa: Análise de Forex
+2026-03-29 10:34:58,080 - __main__ - INFO - Tarefa concluída: Análise de Forex (0.00s)
+2026-03-29 10:34:58,080 - __main__ - INFO - Executando tarefa: Análise Unificada
+2026-03-29 10:34:58,080 - __main__ - INFO - Tarefa concluída: Análise Unificada (0.00s)
+2026-03-29 10:34:58,080 - __main__ - INFO - Executando tarefa: Verificação de Saúde
+2026-03-29 10:34:58,080 - __main__ - WARNING - psutil nao instalado. Metricas de sistema nao disponíveis.
+2026-03-29 10:34:58,080 - __main__ - INFO - Tarefa concluída: Verificação de Saúde (0.00s)
+2026-03-29 10:34:58,080 - __main__ - INFO - Executando tarefa: Atualização de Métricas
+2026-03-29 10:34:58,084 - __main__ - INFO - Tarefa concluída: Atualização de Métricas (0.00s)
+2026-03-29 10:34:58,091 - __main__ - INFO - Estado salvo em orchestrator_state.json

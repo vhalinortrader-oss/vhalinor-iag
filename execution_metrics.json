@@ -1,0 +1,23 @@
+{
+  "engine_status": "running",
+  "router_metrics": {
+    "active_connections": 0,
+    "queue_depth": 0,
+    "processed_orders": 0,
+    "average_latency_ms": 0.0,
+    "latency_distribution": {
+      "ultra_low": 0,
+      "low": 0,
+      "medium": 0,
+      "high": 0
+    },
+    "venue_performance": {}
+  },
+  "execution_stats": {
+    "total_orders": 0,
+    "successful_orders": 0,
+    "failed_orders": 0,
+    "average_latency_ms": 0.0
+  },
+  "timestamp": "2026-04-19T15:14:53.489785"
+}

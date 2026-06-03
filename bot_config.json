@@ -1,0 +1,16 @@
+{
+  "botName": "VhalinorBot",
+  "mode": "paper_trading",
+  "binanceSymbols": ["BTC/USDT", "ETH/USDT", "SOL/USDT"],
+  "profitSymbols": ["WIN$", "WDO$", "PETR4", "VALE3", "ITUB4", "BBDC4", "ABEV3"],
+  "alphaVantageSymbols": ["AAPL", "MSFT", "GOOGL"],
+  "quandlSymbols": ["WIKI/AAPL"],
+  "symbols": ["BTC/USDT", "ETH/USDT", "SOL/USDT", "WIN$", "WDO$", "PETR4", "VALE3", "ITUB4", "BBDC4", "ABEV3", "AAPL", "MSFT", "GOOGL", "WIKI/AAPL"],
+  "indicators": ["SMA20", "SMA50", "RSI", "MACD", "Bollinger Bands"],
+  "analysisFrequency": "FAST",
+  "autoRecovery": {
+    "enabled": true,
+    "attempts": 5,
+    "delay": 5
+  }
+}

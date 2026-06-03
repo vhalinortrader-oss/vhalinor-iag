@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-13T18:19:00.403464",
+  "summary": {
+    "total_cryptos": 5,
+    "active_cryptos": 5,
+    "total_market_cap": 0,
+    "total_volume_24h": 0,
+    "categories": {
+      "Blue Chip": 2,
+      "Large Cap": 3
+    },
+    "overall_trend": "Neutral",
+    "overall_trend_icon": "⚖️",
+    "total_alerts": 0,
+    "total_updates": 5,
+    "uptime": "0:00:01"
+  },
+  "assets": {
+    "bitcoin": {
+      "id": "bitcoin",
+      "symbol": "BITC",
+      "name": "Bitcoin",
+      "category": "Blue Chip",
+      "category_icon": "💎",
+      "current_price": 73278,
+      "price_change_24h": 0.0,
+      "volume_24h": 0.0,
+      "market_cap": 0.0,
+      "market_cap_rank": null,
+      "ath": 0.0,
+      "distance_from_ath": 0.0,
+      "last_updated": "2026-04-13T18:19:00.403244"
+    },
+    "ethereum": {
+      "id": "ethereum",
+      "symbol": "ETHE",
+      "name": "Ethereum",
+      "category": "Blue Chip",
+      "category_icon": "💎",
+      "current_price": 2258.97,
+      "price_change_24h": 0.0,
+      "volume_24h": 0.0,
+      "market_cap": 0.0,
+      "market_cap_rank": null,
+      "ath": 0.0,
+      "distance_from_ath": 0.0,
+      "last_updated": "2026-04-13T18:19:00.403290"
+    },
+    "binancecoin": {
+      "id": "binancecoin",
+      "symbol": "BINA",
+      "name": "Binancecoin",
+      "category": "Large Cap",
+      "category_icon": "💰",
+      "current_price": 608.61,
+      "price_change_24h": 0.0,
+      "volume_24h": 0.0,
+      "market_cap": 0.0,
+      "market_cap_rank": null,
+      "ath": 0.0,
+      "distance_from_ath": 0.0,
+      "last_updated": "2026-04-13T18:19:00.403309"
+    },
+    "solana": {
+      "id": "solana",
+      "symbol": "SOLA",
+      "name": "Solana",
+      "category": "Large Cap",
+      "category_icon": "💰",
+      "current_price": 84.05,
+      "price_change_24h": 0.0,
+      "volume_24h": 0.0,
+      "market_cap": 0.0,
+      "market_cap_rank": null,
+      "ath": 0.0,
+      "distance_from_ath": 0.0,
+      "last_updated": "2026-04-13T18:19:00.403319"
+    },
+    "cardano": {
+      "id": "cardano",
+      "symbol": "CARD",
+      "name": "Cardano",
+      "category": "Large Cap",
+      "category_icon": "💰",
+      "current_price": 0.240152,
+      "price_change_24h": 0.0,
+      "volume_24h": 0.0,
+      "market_cap": 0.0,
+      "market_cap_rank": null,
+      "ath": 0.0,
+      "distance_from_ath": 0.0,
+      "last_updated": "2026-04-13T18:19:00.403328"
+    }
+  },
+  "alerts": [],
+  "analyses": {}
+}

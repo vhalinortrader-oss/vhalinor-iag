@@ -1,0 +1,50 @@
+2026-03-31 05:41:32,303 - __main__ - INFO - Inteligencia_artificial_central - __init__ - line:696 - Orquestrador Cerebral inicializado
+2026-03-31 05:41:32,415 - __main__ - INFO - Inteligencia_artificial_central - __init__ - line:697 - IAG Path: ./iag_modules
+2026-03-31 05:41:32,421 - __main__ - INFO - Inteligencia_artificial_central - __init__ - line:698 - Quantum Path: ./quantum_modules
+2026-03-31 05:41:32,431 - __main__ - INFO - Inteligencia_artificial_central - setup_models - line:451 - Modelos de ML configurados
+2026-03-31 05:41:32,525 - __main__ - INFO - Inteligencia_artificial_central - setup_memory_database - line:589 - Banco de dados de memória configurado
+2026-03-31 05:41:32,537 - __main__ - INFO - Inteligencia_artificial_central - initialize_advanced_systems - line:748 - Iniciando sistemas avançados...
+2026-03-31 05:41:32,542 - __main__ - INFO - Inteligencia_artificial_central - _start_advanced_monitoring - line:766 - Sistema de monitoramento avançado iniciado
+2026-03-31 05:41:32,546 - __main__ - INFO - Inteligencia_artificial_central - initialize_advanced_systems - line:762 - Sistemas avançados inicializados
+2026-03-31 05:41:32,546 - __main__ - INFO - Inteligencia_artificial_central - __init__ - line:246 - Hub de Integracao inicializado
+2026-03-31 05:41:32,562 - __main__ - INFO - Inteligencia_artificial_central - register_module - line:251 - Modulo registrado: neural_engine
+2026-03-31 05:41:32,567 - __main__ - INFO - Inteligencia_artificial_central - register_module - line:251 - Modulo registrado: quantum_engine
+2026-03-31 05:41:32,574 - __main__ - INFO - Inteligencia_artificial_central - register_module - line:251 - Modulo registrado: ml_module
+2026-03-31 05:41:32,580 - __main__ - INFO - Inteligencia_artificial_central - register_module - line:251 - Modulo registrado: memory_system
+2026-03-31 05:41:32,590 - __main__ - INFO - Inteligencia_artificial_central - _start_integration_loop - line:1007 - Loop de integração iniciado
+2026-03-31 05:41:32,599 - __main__ - INFO - Inteligencia_artificial_central - __init__ - line:988 - Orquestrador Integrado inicializado com sucesso!
+2026-03-31 05:41:32,602 - __main__ - INFO - Inteligencia_artificial_central - __init__ - line:989 - LEXTRADER-IAG 5.0 - Sistema Totalmente Operacional
+2026-03-31 05:41:32,611 - __main__ - INFO - Inteligencia_artificial_central - run_optimization_cycle - line:831 - Iniciando ciclo de otimização...
+2026-03-31 05:41:32,616 - __main__ - INFO - Inteligencia_artificial_central - optimize_memory - line:849 - Consolidando memória...
+2026-03-31 05:41:32,630 - __main__ - INFO - Inteligencia_artificial_central - prune_inactive_neurons - line:897 - 0 neurônios inativos removidos
+2026-03-31 05:41:32,637 - __main__ - INFO - Inteligencia_artificial_central - optimize_synapses - line:902 - Otimizando sinapses...
+2026-03-31 05:41:32,644 - __main__ - INFO - Inteligencia_artificial_central - train_ml_models - line:934 - Treinando modelos de ML...
+2026-03-31 05:41:32,653 - __main__ - INFO - Inteligencia_artificial_central - run_security_scan - line:945 - Executando varredura de segurança...
+2026-03-31 05:41:32,659 - __main__ - INFO - Inteligencia_artificial_central - run_optimization_cycle - line:844 - Ciclo de otimização completo
+2026-03-31 06:49:10,257 - __main__ - INFO - Inteligencia_artificial_central - __init__ - line:696 - Orquestrador Cerebral inicializado
+2026-03-31 06:49:10,270 - __main__ - INFO - Inteligencia_artificial_central - __init__ - line:697 - IAG Path: ./iag_modules
+2026-03-31 06:49:10,273 - __main__ - INFO - Inteligencia_artificial_central - __init__ - line:698 - Quantum Path: ./quantum_modules
+2026-03-31 06:49:10,276 - __main__ - INFO - Inteligencia_artificial_central - setup_models - line:451 - Modelos de ML configurados
+2026-03-31 06:49:10,287 - __main__ - INFO - Inteligencia_artificial_central - setup_memory_database - line:589 - Banco de dados de memória configurado
+2026-03-31 06:49:10,292 - __main__ - INFO - Inteligencia_artificial_central - initialize_advanced_systems - line:748 - Iniciando sistemas avançados...
+2026-03-31 06:49:10,292 - __main__ - INFO - Inteligencia_artificial_central - _start_advanced_monitoring - line:766 - Sistema de monitoramento avançado iniciado
+2026-03-31 06:49:10,296 - __main__ - INFO - Inteligencia_artificial_central - initialize_advanced_systems - line:762 - Sistemas avançados inicializados
+2026-03-31 06:49:10,300 - __main__ - INFO - Inteligencia_artificial_central - __init__ - line:246 - Hub de Integracao inicializado
+2026-03-31 06:49:10,302 - __main__ - INFO - Inteligencia_artificial_central - register_module - line:251 - Modulo registrado: neural_engine
+2026-03-31 06:49:10,303 - __main__ - INFO - Inteligencia_artificial_central - register_module - line:251 - Modulo registrado: quantum_engine
+2026-03-31 06:49:10,306 - __main__ - INFO - Inteligencia_artificial_central - register_module - line:251 - Modulo registrado: ml_module
+2026-03-31 06:49:10,308 - __main__ - INFO - Inteligencia_artificial_central - register_module - line:251 - Modulo registrado: memory_system
+2026-03-31 06:49:10,308 - __main__ - INFO - Inteligencia_artificial_central - _start_integration_loop - line:1007 - Loop de integração iniciado
+2026-03-31 06:49:10,308 - __main__ - INFO - Inteligencia_artificial_central - __init__ - line:988 - Orquestrador Integrado inicializado com sucesso!
+2026-03-31 06:49:10,308 - __main__ - INFO - Inteligencia_artificial_central - __init__ - line:989 - LEXTRADER-IAG 5.0 - Sistema Totalmente Operacional
+2026-03-31 06:49:10,319 - __main__ - INFO - Inteligencia_artificial_central - run_optimization_cycle - line:831 - Iniciando ciclo de otimização...
+2026-03-31 06:49:10,319 - __main__ - INFO - Inteligencia_artificial_central - optimize_memory - line:849 - Consolidando memória...
+2026-03-31 06:49:10,328 - __main__ - INFO - Inteligencia_artificial_central - prune_inactive_neurons - line:897 - 0 neurônios inativos removidos
+2026-03-31 06:49:10,330 - __main__ - INFO - Inteligencia_artificial_central - optimize_synapses - line:902 - Otimizando sinapses...
+2026-03-31 06:49:10,333 - __main__ - INFO - Inteligencia_artificial_central - train_ml_models - line:934 - Treinando modelos de ML...
+2026-03-31 06:49:10,333 - __main__ - INFO - Inteligencia_artificial_central - run_security_scan - line:945 - Executando varredura de segurança...
+2026-03-31 06:49:10,340 - __main__ - INFO - Inteligencia_artificial_central - run_optimization_cycle - line:844 - Ciclo de otimização completo
+2026-04-01 20:26:24,262 - VHALINOR_AI - WARNING - Inteligencia_artificial_central_enhanced - setup_quantum_circuits - line:1669 - Qiskit not available for quantum operations
+2026-04-01 20:26:29,649 - VHALINOR_AI - ERROR - Inteligencia_artificial_central_enhanced - main - line:2596 - System error: name 'model_type' is not defined
+2026-04-01 20:28:03,972 - VHALINOR_AI - WARNING - Inteligencia_artificial_central_enhanced - setup_quantum_circuits - line:1669 - Qiskit not available for quantum operations
+2026-04-01 20:28:04,982 - VHALINOR_AI - ERROR - Inteligencia_artificial_central_enhanced - main - line:2596 - System error: name 'model_type' is not defined
