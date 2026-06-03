@@ -1,0 +1,254 @@
+# VHALINOR AI Geral v6.0 - Enhanced Dependencies
+# ================================================
+# Comprehensive dependency list for AI trading system
+
+# Core Data Science & Computing
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.11.0
+scikit-learn>=1.3.0
+statsmodels>=0.14.0
+
+# Deep Learning Frameworks
+tensorflow>=2.15.0
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
+keras>=2.15.0
+xgboost>=2.0.0
+lightgbm>=4.1.0
+catboost>=1.2
+
+# Visualization & Dashboard
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.17.0
+bokeh>=3.2.0
+streamlit>=1.28.0
+dash>=2.14.0
+
+# Web & Networking
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+aiohttp>=3.9.0
+websockets>=12.0
+httpx>=0.25.0
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic-settings>=2.0.0
+python-dotenv>=1.0.0
+
+# Natural Language Processing & AI
+nltk>=3.8.1
+spacy>=3.7.2
+transformers>=4.36.0
+gensim>=4.3.2
+textblob>=0.17.1
+sentence-transformers>=2.2.2
+openai>=1.3.0
+anthropic>=0.7.0
+
+# Computer Vision & Image Processing
+opencv-python>=4.8.1
+pillow>=10.1.0
+imageio>=2.31.6
+scikit-image>=0.22.0
+
+# Document Processing
+PyPDF2>=3.0.1
+pdfplumber>=0.9.0
+pymupdf>=1.23.0
+docx>=0.3.0
+pdfminer.six>=20220519
+
+# Financial Analysis & Trading
+yfinance>=0.2.18
+ta>=0.10.2
+pandas-datareader>=0.10.0
+stockstats>=0.3.2
+mplfinance>=0.12.9b
+backtrader>=1.9.76.123
+ccxt>=4.1.0
+vectorbt>=0.25.0
+zipline-reloaded>=2.2.0
+
+# Quantum Computing (Opcional)
+# qiskit>=0.36.0
+# cirq>=0.15.0
+# pennylane>=0.25.0
+
+# Async & Concurrency
+asyncio-mqtt>=0.13.0
+celery>=5.3.4
+redis>=5.0.1
+aioredis>=2.0.1
+kafka-python>=2.0.2
+pika>=1.3.2
+
+# Data Validation & Serialization
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+marshmallow>=3.20.0
+jsonschema>=4.20.0
+pydantic-extra-types>=2.5.0
+
+# CLI & UI
+typer>=0.9.0
+rich>=13.7.0
+click>=8.1.0
+tqdm>=4.66.0
+inquirer>=2.10.0
+colorama>=0.4.6
+
+# Logging & Monitoring
+loguru>=0.7.2
+structlog>=23.2.0
+prometheus-client>=0.19.0
+sentry-sdk>=1.38.0
+
+# Configuration & Environment
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
+configparser>=6.3.0
+decouple>=3.8
+toml>=0.10.2
+
+# System & Performance
+psutil>=5.9.6
+memory-profiler>=0.61.0
+py-spy>=0.3.14
+line-profiler>=4.1.0
+py-cpuinfo>=9.0.0
+
+# Database
+sqlalchemy>=2.0.23
+pymongo>=4.6.0
+alembic>=1.13.0
+asyncpg>=0.29.0
+aiosqlite>=0.19.0
+
+# Testing & Quality
+pytest>=7.4.3
+pytest-asyncio>=0.21.1
+pytest-cov>=4.1.0
+pytest-mock>=3.12.0
+pytest-xdist>=3.5.0
+pytest-benchmark>=4.0.0
+hypothesis>=6.88.0
+black>=23.11.0
+flake8>=6.1.0
+mypy>=1.7.1
+isort>=5.12.0
+pre-commit>=3.5.0
+bandit>=1.7.5
+safety>=2.3.5
+
+# Documentation
+sphinx>=7.2.0
+sphinx-rtd-theme>=1.3.0
+myst-parser>=2.0.0
+
+# Security
+cryptography>=41.0.7
+bcrypt>=4.1.1
+pyjwt>=2.8.0
+passlib>=1.7.4
+
+# Utilities
+python-dateutil>=2.8.2
+pytz>=2023.3
+click-default-group>=1.2.2
+colorama>=0.4.6
+tenacity>=8.2.3
+retry>=0.9.2
+
+# Audio Processing (para sistema sensorial)
+librosa>=0.10.1
+soundfile>=0.12.1
+pyaudio>=0.2.11
+pydub>=0.25.1
+
+# Image Processing avançado
+dlib>=19.24.2
+face-recognition>=1.3.0
+mediapipe>=0.10.9
+
+# Trading & Blockchain
+ccxt>=4.1.0
+binance>=1.0.19
+metatrader5>=5.0.45
+web3>=6.11.0
+eth-account>=0.9.0
+solana>=0.30.2
+python-binance>=1.0.19
+
+# Machine Learning adicional
+xgboost>=2.0.0
+lightgbm>=4.1.0
+catboost>=1.2.0
+shap>=0.43.0
+imbalanced-learn>=0.11.0
+
+# Processamento de Linguagem avançado
+rouge-score>=0.1.0
+sacrebleu>=2.4.0
+datasets>=2.15.0
+evaluate>=0.4.1
+
+# GPU acceleration (opcional)
+# cupy>=10.0.0
+# numba>=0.56.0
+# tensorflow-gpu>=2.15.0
+# torch-audio>=2.1.0[cpu]
+
+# Jupyter notebooks
+jupyter>=1.0.0
+jupyterlab>=4.0.0
+notebook>=7.0.6
+ipykernel>=6.27.1
+ipywidgets>=8.1.0
+jupyter-console>=6.6.3
+nbformat>=5.9.2
+
+# Automation
+selenium>=4.15.2
+pyautogui>=0.9.54
+pywin32>=306
+keyboard>=0.13.5
+pynput>=1.7.6
+
+# Web scraping
+scrapy>=2.11.0
+playwright>=1.40.0
+beautifulsoup4>=4.12.2
+lxml>=4.9.3
+
+# Time series
+prophet>=1.1.0
+statsmodels>=0.14.0
+
+# Geospatial (para análise de dados geográficos)
+geopandas>=0.14.0
+folium>=0.15.0
+
+# Network analysis
+networkx>=3.2.0
+igraph>=0.11.0
+
+# Optimization
+scipy-optimize>=1.2.0
+hyperopt>=0.2.7
+optuna>=3.4.0
+
+# Data streaming
+kafka-python>=2.0.0
+pika>=1.3.0
+
+# Email & notifications
+smtplib2>=0.2.0
+slack-sdk>=3.23.0
+
+# Deploy e produção
+gunicorn>=21.2.0
+docker>=6.1.0
+kubernetes>=27.2.0

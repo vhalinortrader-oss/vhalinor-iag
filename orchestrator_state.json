@@ -1,0 +1,81 @@
+{
+  "mode": "SCHEDULED",
+  "start_time": "2026-03-29T10:34:58.073047",
+  "metrics": {
+    "total_tasks": 6,
+    "completed_tasks": 6,
+    "failed_tasks": 0,
+    "running_tasks": 0,
+    "pending_tasks": 0,
+    "success_rate": 83.33333333333334,
+    "average_execution_time": 0.0,
+    "total_execution_time": 0.00397,
+    "last_update": "2026-03-29 10:34:58.084924"
+  },
+  "health": {
+    "cpu_usage": 0.0,
+    "memory_usage": 0.0,
+    "disk_usage": 0.0,
+    "active_connections": 0,
+    "error_rate": 0.0,
+    "uptime_hours": 0.0,
+    "status": "UNKNOWN",
+    "timestamp": "2026-03-29 10:34:58.073047"
+  },
+  "tasks": {
+    "task_1774791298_0": {
+      "name": "Análise de Criptomoedas",
+      "status": "COMPLETED",
+      "priority": 3,
+      "created_at": "2026-03-29T10:34:58.073047",
+      "completed_at": "2026-03-29T10:34:58.080954",
+      "result": null,
+      "error": null
+    },
+    "task_1774791298_1": {
+      "name": "Análise de Forex",
+      "status": "COMPLETED",
+      "priority": 3,
+      "created_at": "2026-03-29T10:34:58.073047",
+      "completed_at": "2026-03-29T10:34:58.080954",
+      "result": null,
+      "error": null
+    },
+    "task_1774791298_2": {
+      "name": "Scan de Arbitragem",
+      "status": "COMPLETED",
+      "priority": 4,
+      "created_at": "2026-03-29T10:34:58.073047",
+      "completed_at": "2026-03-29T10:34:58.080954",
+      "result": null,
+      "error": null
+    },
+    "task_1774791298_3": {
+      "name": "Análise Unificada",
+      "status": "COMPLETED",
+      "priority": 2,
+      "created_at": "2026-03-29T10:34:58.073047",
+      "completed_at": "2026-03-29T10:34:58.080954",
+      "result": null,
+      "error": null
+    },
+    "task_1774791298_4": {
+      "name": "Atualização de Métricas",
+      "status": "COMPLETED",
+      "priority": 1,
+      "created_at": "2026-03-29T10:34:58.073047",
+      "completed_at": "2026-03-29T10:34:58.084924",
+      "result": "AutomationMetrics(total_tasks=6, completed_tasks=6, failed_tasks=0, running_tasks=0, pending_tasks=0, success_rate=83.33333333333334, average_execution_time=0.0, total_execution_time=0.00397, last_update=datetime.datetime(2026, 3, 29, 10, 34, 58, 84924))",
+      "error": null
+    },
+    "task_1774791298_5": {
+      "name": "Verificação de Saúde",
+      "status": "COMPLETED",
+      "priority": 2,
+      "created_at": "2026-03-29T10:34:58.073047",
+      "completed_at": "2026-03-29T10:34:58.080954",
+      "result": "SystemHealth(cpu_usage=0.0, memory_usage=0.0, disk_usage=0.0, active_connections=0, error_rate=0.0, uptime_hours=0.0, status='UNKNOWN', timestamp=datetime.datetime(2026, 3, 29, 10, 34, 58, 73047))",
+      "error": null
+    }
+  }
+}
