@@ -1,0 +1,9 @@
+README.md
+setup.py
+vhalinor_ai_geral.egg-info/PKG-INFO
+vhalinor_ai_geral.egg-info/SOURCES.txt
+vhalinor_ai_geral.egg-info/dependency_links.txt
+vhalinor_ai_geral.egg-info/entry_points.txt
+vhalinor_ai_geral.egg-info/not-zip-safe
+vhalinor_ai_geral.egg-info/requires.txt
+vhalinor_ai_geral.egg-info/top_level.txt

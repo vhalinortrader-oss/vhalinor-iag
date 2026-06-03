@@ -1,0 +1,4 @@
+[console_scripts]
+vhalinor-ai = ai_geral.cli:main
+vhalinor-dashboard = ai_geral.dashboard:main
+vhalinor-trader = ai_geral.trader:main
