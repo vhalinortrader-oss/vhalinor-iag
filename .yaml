@@ -1,0 +1,81 @@
+version: '3.8'
+
+services:
+  vhalinor-trade:
+    build: .
+    container_name: vhalinor_trade
+    restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1
+      - BINANCE_API_KEY=${BINANCE_API_KEY}
+      - BINANCE_API_SECRET=${BINANCE_API_SECRET}
+      - BYBIT_API_KEY=${BYBIT_API_KEY}
+      - BYBIT_API_SECRET=${BYBIT_API_SECRET}
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./logs:/app/logs
+    depends_on:
+      - redis
+    networks:
+      - vhalinor-network
+
+  redis:
+    image: redis:7-alpine
+    container_name: vhalinor_redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - vhalinor-network
+
+  postgres:
+    image: postgres:14-alpine
+    container_name: vhalinor_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: vhalinor
+      POSTGRES_USER: vhalinor
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - vhalinor-network
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: vhalinor_grafana
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=${GRAFANA_PASSWORD}
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./grafana/dashboards:/etc/grafana/provisioning/dashboards
+    networks:
+      - vhalinor-network
+
+  monitor:
+    build:
+      context: .
+      dockerfile: Dockerfile.monitor
+    container_name: vhalinor_monitor
+    restart: unless-stopped
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./logs:/app/logs
+    networks:
+      - vhalinor-network
+
+volumes:
+  redis_data:
+  postgres_data:
+  grafana_data:
+
+networks:
+  vhalinor-network:
+    driver: bridge

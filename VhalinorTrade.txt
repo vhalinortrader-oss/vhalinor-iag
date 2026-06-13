@@ -1,0 +1,16 @@
+VhalinorTrade/
+├── 01_config.py           # Configurações globais
+├── 02_data_collector.py   # Coleta de dados em tempo real
+├── 03_technical_analysis.py # Análise técnica avançada
+├── 04_pattern_recognition.py # Reconhecimento de padrões
+├── 05_neural_network.py   # Rede neural profunda
+├── 06_prediction_engine.py # Motor de predição
+├── 07_risk_management.py  # Gestão de risco
+├── 08_execution_engine.py # Execução de ordens
+├── 09_main_system.py      # Orquestrador central
+├── 10_sensory_system.py   # Sistema sensorial
+├── 11_run.py              # Ponto de entrada
+├── 12_requirements.txt    # Dependências
+├── 13_docker-compose.yml  # Ambiente Docker
+├── 14_Dockerfile          # Containerização
+└── 15_memory_learning.py  # Memória de aprendizado
