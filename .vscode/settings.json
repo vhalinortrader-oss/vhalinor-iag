@@ -1,4 +1,5 @@
 {
     "serverpulse.ai.enabled": true,
-    "serverpulse.ai.optInShown": true
+    "serverpulse.ai.optInShown": true,
+    "deepseek.enableCompletion": true
 }

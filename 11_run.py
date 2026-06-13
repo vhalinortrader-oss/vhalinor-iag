@@ -10,10 +10,14 @@ import sys
 import logging
 from datetime import datetime
 
+# Importa o orquestrador principal e a configuração global
+from 09_main_system import VhalinorTrade
+
 logger = logging.getLogger("VhalinorTrade")
 
 # Instância global do sistema
 vhalinor = None
+
 
 async def main():
     """Função principal"""

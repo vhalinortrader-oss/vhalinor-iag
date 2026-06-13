@@ -5,31 +5,61 @@ services:
     build: .
     container_name: vhalinor_trade
     restart: unless-stopped
+    env_file:
+      - .env                         # carrega todas as variáveis do .env
     environment:
       - PYTHONUNBUFFERED=1
+      # As chaves de API e senhas são herdadas do .env, mas podemos explicitá-las se necessário
       - BINANCE_API_KEY=${BINANCE_API_KEY}
       - BINANCE_API_SECRET=${BINANCE_API_SECRET}
       - BYBIT_API_KEY=${BYBIT_API_KEY}
       - BYBIT_API_SECRET=${BYBIT_API_SECRET}
+      - REDIS_PASSWORD=${REDIS_PASSWORD}
+      - DATABASE_URL=postgresql://vhalinor:${DB_PASSWORD}@postgres:5432/vhalinor
     volumes:
       - ./data:/app/data
       - ./models:/app/models
       - ./logs:/app/logs
     depends_on:
-      - redis
+      redis:
+        condition: service_healthy
+      postgres:
+        condition: service_healthy
     networks:
       - vhalinor-network
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    # healthcheck opcional para o worker (ajuste conforme necessidade)
+    # healthcheck:
+    #   test: ["CMD", "pgrep", "-f", "seu_script.py"]   # verifica se o processo principal existe
+    #   interval: 30s
+    #   timeout: 10s
+    #   retries: 3
 
   redis:
     image: redis:7-alpine
     container_name: vhalinor_redis
     restart: unless-stopped
+    command: redis-server --requirepass ${REDIS_PASSWORD} --appendonly yes
     ports:
-      - "6379:6379"
+      - "6379:6379"                 # apenas se necessário acesso externo; em produção remova ou restrinja com firewall
     volumes:
       - redis_data:/data
     networks:
       - vhalinor-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "--pass", "${REDIS_PASSWORD}", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
 
   postgres:
     image: postgres:14-alpine
@@ -43,6 +73,16 @@ services:
       - postgres_data:/var/lib/postgresql/data
     networks:
       - vhalinor-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U vhalinor -d vhalinor"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
 
   grafana:
     image: grafana/grafana:latest
@@ -57,6 +97,16 @@ services:
       - ./grafana/dashboards:/etc/grafana/provisioning/dashboards
     networks:
       - vhalinor-network
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q --spider http://localhost:3000/api/health || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
 
   monitor:
     build:
@@ -70,6 +120,16 @@ services:
       - ./logs:/app/logs
     networks:
       - vhalinor-network
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8501/ || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
 
 volumes:
   redis_data:
