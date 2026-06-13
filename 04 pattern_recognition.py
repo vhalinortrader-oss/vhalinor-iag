@@ -1,4 +1,4 @@
-# 04_pattern_recognition.py
+# 04 pattern_recognition_.py
 """
 Sistema VhalinorTrade - Reconhecimento de Padrões Históricos
 Identificação de padrões recorrentes e ocultos com ML
